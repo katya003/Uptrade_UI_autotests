@@ -11,15 +11,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
+
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://uptrade.ru";
+
         Configuration.pageLoadStrategy = "eager";
         Configuration.timeout = 12000;
         new ConfigRunner();

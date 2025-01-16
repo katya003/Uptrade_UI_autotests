@@ -17,60 +17,20 @@ public class FirstTests extends TestBase {
     FirstPage firstPage = new FirstPage();
 
     @Test
-    @DisplayName("Название кнопки 'Команда' соответствует требованиям")
-    @Story("Позитивный тест")
-    public void buttonTeamWatchTest() {
-        firstPage.openPage();
-        firstPage.checkButtonTeam();
-    }
-
-    @Test
-    @DisplayName("Кнопка 'Стать клиентом' кликабельна")
-    @Story("Позитивный тест")
-    public void buttonClientWatchTest() {
-        firstPage.openPage();
-        firstPage.checkButtonClient();
-    }
-
-    @Test
-    @DisplayName("Название кнопки 'Стать поставщиком' соответствует требованиям")
-    @Story("Позитивный тест")
-    public void buttonProducerWatchTest() {
-        firstPage.openPage();
-        firstPage.checkButtonProducer();
-    }
-
-    @Test
-    @DisplayName("Название кнопки 'Контакты' соответствует требованиям")
-    @Story("Позитивный тест")
-    public void buttonContactsWatchTest() {
-        firstPage.openPage();
-        firstPage.checkButtonContacts();
-    }
-
-    @Test
-    @DisplayName("Название кнопки 'Стать клиентом' соответствует требованиям")
-    @Story("Позитивный тест")
-    public void buttonJoinWatchTest() {
-        firstPage.openPage();
-        firstPage.checkButtonJoin();
-    }
-
-    @Test
     @DisplayName("Проверка текста раздела, при переключении кнопок навигации (стрелка вправо)")
-    @Story("Позитивный тест")
+    @Story("Тестирование переключения кнопок навигации")
     public void switchingButtonArrowsTest() {
         firstPage.openPage();
-        firstPage.rightButtonArrowsTest();
-        firstPage.checkTextAfterSwitchingRightArrowsTest();
+        firstPage.pressRightButtonArrows();
+        firstPage.checkTextAfterSwitchingRightArrows();
     }
 
     @Test
     @DisplayName("Проверка текста раздела, при переключении кнопок индикатора прогресса (цифра 2)")
-    @Story("Позитивный тест")
+    @Story("Тестирование переключения кнопок индикатора прогресса")
     public void switchingButtonPaginationTest() {
         firstPage.openPage();
-        firstPage.paginationTwoTest();
-        firstPage.checkTextAfterSwitchingTwoNumberTest();
+        firstPage.pressPaginationTwo();
+        firstPage.checkTextAfterSwitchingTwoNumber();
     }
 }

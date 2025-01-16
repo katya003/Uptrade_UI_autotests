@@ -15,10 +15,10 @@ public class ConfigRunner {
 
     public ConfigRunner() {
         this.config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
-        createDriver();
+        readConfiguration();
     }
 
-    private void createDriver() {
+    private void readConfiguration() {
 
         logger.info("Env variable: " + System.getProperty("env"));
         Configuration.browser = config.getBrowserName();
@@ -27,7 +27,10 @@ public class ConfigRunner {
         logger.info("Browser version: " + Configuration.browserVersion);
         Configuration.browserSize = config.getBrowserSize();
         logger.info("Browser size: " + Configuration.browserSize);
+        Configuration.baseUrl = config.getBaseUrl();
+        logger.info("Base URL: " + Configuration.baseUrl);
         logger.info("Remote URL: " + config.getRemoteURL());
+
 
         if (config.getRemoteURL() != null) {
             Configuration.remote = config.getRemoteURL().toString();

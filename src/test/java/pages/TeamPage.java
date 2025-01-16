@@ -12,7 +12,6 @@ public class TeamPage {
     @Step("Нажать на кнопку 'Стать частью команды'")
     public TeamPage clickButtonJoinTheTeam() {
         buttonJoinTeam.click();
-
         return this;
     }
 }

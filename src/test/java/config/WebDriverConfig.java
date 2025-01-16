@@ -25,6 +25,10 @@ public interface WebDriverConfig extends Config {
     @DefaultValue("1920x1080")
     String getBrowserSize();
 
+    @Key("baseURL")
+    @DefaultValue("https://uptrade.ru")
+    String getBaseUrl();
+
     @Key("remoteUrl")
     URL getRemoteURL();
 }
