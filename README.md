@@ -83,7 +83,7 @@ Web:
 <a id="testops"></a>
 ## <a name="Интеграция с Allure TestOps">**Интеграция с Allure TestOps**</a>
 
-В [TestOps](https://allure.autotests.cloud/launch/43529/tree?treeId=8884&search=W3siaWQiOiJzdGF0dXMiLCJ0eXBlIjoidGVzdFN0YXR1c0FycmF5IiwidmFsdWUiOlsicGFzc2VkIl19XQ%3D%3D) можно посмотреть диаграмму прохождения тестов
+В [TestOps](https://allure.autotests.cloud/launch/43853/tree?treeId=8884) можно посмотреть диаграмму прохождения тестов
 
 <img src="images/TestOps_1.png" width="900">
 
