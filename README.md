@@ -20,7 +20,7 @@
 
 Web:
 
-10 тестов проверяют функционал [сайта](https://uptrade.ru/)
+8 тестов проверяют функционал [сайта](https://uptrade.ru/)
 
  - кликабельность кнопок и соответствие названий основных кнопок требованиям
  - переключение пагинатора на сайте
@@ -68,7 +68,7 @@ Web:
 
 После прохождения тестов, появляется диаграмма прохождения, по которой, в цветовом значении, наглядно видно количество успешных и неуспешных тестов
 
-<img src="images/Allure.png" width="900">
+<img src="images/Allure_Int.png" width="900">
 
 <a id="allure"></a>
 ## <a name="Отчет в Allure">**Отчет в Allure**</a>
@@ -85,11 +85,11 @@ Web:
 
 В [TestOps](https://allure.autotests.cloud/launch/43529/tree?treeId=8884&search=W3siaWQiOiJzdGF0dXMiLCJ0eXBlIjoidGVzdFN0YXR1c0FycmF5IiwidmFsdWUiOlsicGFzc2VkIl19XQ%3D%3D) можно посмотреть диаграмму прохождения тестов
 
-<img src="images/TestOps.png" width="900">
+<img src="images/TestOps_1.png" width="900">
 
 Так же можно посмотреть более подробную информация по тестам
 
-<img src="images/TestOps_1.png" width="900">
+<img src="images/TestOps_2.png" width="900">
 
 ---
 
