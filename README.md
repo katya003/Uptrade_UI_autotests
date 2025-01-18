@@ -74,7 +74,7 @@ Web:
 ## <a name="Отчет в Allure">**Отчет в Allure**</a>
 
  При нажатии на тестовый набор, раскрывается названия всех тестов. При нажатии на определенный тест, раскрываются шаги теста с приложенными вложениями
-[Allure](https://jenkins.autotests.cloud/job/Uptrade_UI_autotests/36/allure/#suites/159fbffea37b83e5595c727b9006689c/699fc3098d69e23a/)
+[Allure](https://jenkins.autotests.cloud/job/Uptrade_UI_autotests/38/allure/#suites/159fbffea37b83e5595c727b9006689c/4cbb7e3a792bad4c/)
 
 <img src="images/Allure_1.png" width="900">
 
