@@ -26,11 +26,18 @@ public class FirstTests extends TestBase {
     }
 
     @Test
-    @DisplayName("Проверка текста раздела, при переключении кнопок индикатора прогресса (цифра 2)")
+    @DisplayName("Проверка написанного метода")
     @Story("Тестирование переключения кнопок индикатора прогресса")
-    public void switchingButtonPaginationTest() {
+    public void switchingButtonPaginationDemo() {
         firstPage.openPage();
-        firstPage.pressPaginationTwo();
+        firstPage.clickSliderButton(2);
         firstPage.checkTextAfterSwitchingTwoNumber();
+        firstPage.clickSliderButton(3);
+        firstPage.checkTextAfterSwitchingThreeNumber();
+        firstPage.clickSliderButton(2);
+        firstPage.clickSliderButton(1);
+        firstPage.checkTextAfterSwitchingOneNumber();
+
     }
+
 }
